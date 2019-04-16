@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		008C74EE0D619A813CC809F9 /* Pods_ARSightseeing.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6D5AE4BFD0F557A5B585DEF2 /* Pods_ARSightseeing.framework */; };
+		49D788EE20F323C100AD0602 /* LandmarkDetailsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49D788ED20F323C100AD0602 /* LandmarkDetailsVC.swift */; };
 		49EE65E820EB522100E18DD4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49EE65E720EB522100E18DD4 /* AppDelegate.swift */; };
 		49EE65EA20EB522100E18DD4 /* art.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = 49EE65E920EB522100E18DD4 /* art.scnassets */; };
 		49EE65EC20EB522100E18DD4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49EE65EB20EB522100E18DD4 /* ViewController.swift */; };
@@ -14,6 +16,11 @@
 		49EE65F120EB522200E18DD4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 49EE65F020EB522200E18DD4 /* Assets.xcassets */; };
 		49EE65F420EB522200E18DD4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 49EE65F220EB522200E18DD4 /* LaunchScreen.storyboard */; };
 		49EE65FF20EB522300E18DD4 /* ARSightseeingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49EE65FE20EB522300E18DD4 /* ARSightseeingTests.swift */; };
+		49EE660B20EEA20900E18DD4 /* LocationLayerNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49EE660A20EEA20900E18DD4 /* LocationLayerNode.swift */; };
+		49EE661220EEB83000E18DD4 /* Locations.json in Resources */ = {isa = PBXBuildFile; fileRef = 49EE661120EEB83000E18DD4 /* Locations.json */; };
+		49EE661720EEB8EA00E18DD4 /* LocationObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49EE661620EEB8EA00E18DD4 /* LocationObject.swift */; };
+		49EE661920EEB91100E18DD4 /* LocationFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49EE661820EEB91100E18DD4 /* LocationFactory.swift */; };
+		49EE661B20EEBC4C00E18DD4 /* LandmarkNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49EE661A20EEBC4C00E18DD4 /* LandmarkNode.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,6 +34,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		49BDE5682265AA31003FFA01 /* PHOTOS_LICENSE.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = PHOTOS_LICENSE.md; sourceTree = "<group>"; };
+		49BDE5692265ACE3003FFA01 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		49BDE56A2265ACFF003FFA01 /* LICENSE.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = LICENSE.md; sourceTree = "<group>"; };
+		49D788ED20F323C100AD0602 /* LandmarkDetailsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandmarkDetailsVC.swift; sourceTree = "<group>"; };
 		49EE65E420EB522100E18DD4 /* ARSightseeing.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ARSightseeing.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		49EE65E720EB522100E18DD4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		49EE65E920EB522100E18DD4 /* art.scnassets */ = {isa = PBXFileReference; lastKnownFileType = wrapper.scnassets; path = art.scnassets; sourceTree = "<group>"; };
@@ -38,6 +49,14 @@
 		49EE65FA20EB522300E18DD4 /* ARSightseeingTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ARSightseeingTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		49EE65FE20EB522300E18DD4 /* ARSightseeingTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARSightseeingTests.swift; sourceTree = "<group>"; };
 		49EE660020EB522300E18DD4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		49EE660A20EEA20900E18DD4 /* LocationLayerNode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationLayerNode.swift; sourceTree = "<group>"; };
+		49EE661120EEB83000E18DD4 /* Locations.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = Locations.json; sourceTree = "<group>"; };
+		49EE661620EEB8EA00E18DD4 /* LocationObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationObject.swift; sourceTree = "<group>"; };
+		49EE661820EEB91100E18DD4 /* LocationFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationFactory.swift; sourceTree = "<group>"; };
+		49EE661A20EEBC4C00E18DD4 /* LandmarkNode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandmarkNode.swift; sourceTree = "<group>"; };
+		6D5AE4BFD0F557A5B585DEF2 /* Pods_ARSightseeing.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ARSightseeing.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		72A5B4A07C2DDE5F7AFBE191 /* Pods-ARSightseeing.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ARSightseeing.release.xcconfig"; path = "Pods/Target Support Files/Pods-ARSightseeing/Pods-ARSightseeing.release.xcconfig"; sourceTree = "<group>"; };
+		85B9FEB1087B6F4EEE9720B0 /* Pods-ARSightseeing.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ARSightseeing.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ARSightseeing/Pods-ARSightseeing.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -45,6 +64,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				008C74EE0D619A813CC809F9 /* Pods_ARSightseeing.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -58,12 +78,42 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		49BDE5652265A34D003FFA01 /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				49EE65EB20EB522100E18DD4 /* ViewController.swift */,
+				49D788ED20F323C100AD0602 /* LandmarkDetailsVC.swift */,
+			);
+			path = Screens;
+			sourceTree = "<group>";
+		};
+		49BDE5662265A38B003FFA01 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				49EE661620EEB8EA00E18DD4 /* LocationObject.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		49BDE5672265A3CE003FFA01 /* ARNode */ = {
+			isa = PBXGroup;
+			children = (
+				49EE660A20EEA20900E18DD4 /* LocationLayerNode.swift */,
+				49EE661A20EEBC4C00E18DD4 /* LandmarkNode.swift */,
+			);
+			path = ARNode;
+			sourceTree = "<group>";
+		};
 		49EE65DB20EB522100E18DD4 = {
 			isa = PBXGroup;
 			children = (
+				49BDE56A2265ACFF003FFA01 /* LICENSE.md */,
+				49BDE5692265ACE3003FFA01 /* README.md */,
 				49EE65E620EB522100E18DD4 /* ARSightseeing */,
 				49EE65FD20EB522300E18DD4 /* ARSightseeingTests */,
 				49EE65E520EB522100E18DD4 /* Products */,
+				A68686377DBF741092A855BC /* Pods */,
+				DEC7389390CFB2F719B233D4 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -79,13 +129,11 @@
 		49EE65E620EB522100E18DD4 /* ARSightseeing */ = {
 			isa = PBXGroup;
 			children = (
-				49EE65E720EB522100E18DD4 /* AppDelegate.swift */,
-				49EE65E920EB522100E18DD4 /* art.scnassets */,
-				49EE65EB20EB522100E18DD4 /* ViewController.swift */,
-				49EE65ED20EB522100E18DD4 /* Main.storyboard */,
-				49EE65F020EB522200E18DD4 /* Assets.xcassets */,
-				49EE65F220EB522200E18DD4 /* LaunchScreen.storyboard */,
-				49EE65F520EB522200E18DD4 /* Info.plist */,
+				49EE661420EEB85400E18DD4 /* App */,
+				49EE660920EEA1A500E18DD4 /* Services */,
+				49BDE5662265A38B003FFA01 /* Model */,
+				49EE660F20EEB81200E18DD4 /* Resources */,
+				49EE661020EEB81800E18DD4 /* UI */,
 			);
 			path = ARSightseeing;
 			sourceTree = "<group>";
@@ -99,6 +147,62 @@
 			path = ARSightseeingTests;
 			sourceTree = "<group>";
 		};
+		49EE660920EEA1A500E18DD4 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				49EE661820EEB91100E18DD4 /* LocationFactory.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		49EE660F20EEB81200E18DD4 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				49EE65E920EB522100E18DD4 /* art.scnassets */,
+				49EE661120EEB83000E18DD4 /* Locations.json */,
+				49EE65F020EB522200E18DD4 /* Assets.xcassets */,
+				49EE65F520EB522200E18DD4 /* Info.plist */,
+				49BDE5682265AA31003FFA01 /* PHOTOS_LICENSE.md */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		49EE661020EEB81800E18DD4 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				49BDE5672265A3CE003FFA01 /* ARNode */,
+				49BDE5652265A34D003FFA01 /* Screens */,
+				49EE65ED20EB522100E18DD4 /* Main.storyboard */,
+				49EE65F220EB522200E18DD4 /* LaunchScreen.storyboard */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		49EE661420EEB85400E18DD4 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				49EE65E720EB522100E18DD4 /* AppDelegate.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		A68686377DBF741092A855BC /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				85B9FEB1087B6F4EEE9720B0 /* Pods-ARSightseeing.debug.xcconfig */,
+				72A5B4A07C2DDE5F7AFBE191 /* Pods-ARSightseeing.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		DEC7389390CFB2F719B233D4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6D5AE4BFD0F557A5B585DEF2 /* Pods_ARSightseeing.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -106,9 +210,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 49EE660320EB522300E18DD4 /* Build configuration list for PBXNativeTarget "ARSightseeing" */;
 			buildPhases = (
+				3408DD2CB1C247512925D140 /* [CP] Check Pods Manifest.lock */,
 				49EE65E020EB522100E18DD4 /* Sources */,
 				49EE65E120EB522100E18DD4 /* Frameworks */,
 				49EE65E220EB522100E18DD4 /* Resources */,
+				4F30CA9CEBD959A5F5529341 /* [CP] Embed Pods Frameworks */,
+				C2F4DB551EE67E53B8ED53CB /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -182,6 +289,7 @@
 			files = (
 				49EE65EA20EB522100E18DD4 /* art.scnassets in Resources */,
 				49EE65F420EB522200E18DD4 /* LaunchScreen.storyboard in Resources */,
+				49EE661220EEB83000E18DD4 /* Locations.json in Resources */,
 				49EE65F120EB522200E18DD4 /* Assets.xcassets in Resources */,
 				49EE65EF20EB522100E18DD4 /* Main.storyboard in Resources */,
 			);
@@ -196,13 +304,74 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		3408DD2CB1C247512925D140 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ARSightseeing-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4F30CA9CEBD959A5F5529341 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-ARSightseeing/Pods-ARSightseeing-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/ARCL/ARCL.framework",
+				"${BUILT_PRODUCTS_DIR}/MIBlurPopup/MIBlurPopup.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ARCL.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MIBlurPopup.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ARSightseeing/Pods-ARSightseeing-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C2F4DB551EE67E53B8ED53CB /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ARSightseeing/Pods-ARSightseeing-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		49EE65E020EB522100E18DD4 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				49EE660B20EEA20900E18DD4 /* LocationLayerNode.swift in Sources */,
+				49EE661920EEB91100E18DD4 /* LocationFactory.swift in Sources */,
+				49EE661B20EEBC4C00E18DD4 /* LandmarkNode.swift in Sources */,
 				49EE65EC20EB522100E18DD4 /* ViewController.swift in Sources */,
+				49EE661720EEB8EA00E18DD4 /* LocationObject.swift in Sources */,
 				49EE65E820EB522100E18DD4 /* AppDelegate.swift in Sources */,
+				49D788EE20F323C100AD0602 /* LandmarkDetailsVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -360,11 +529,13 @@
 		};
 		49EE660420EB522300E18DD4 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 85B9FEB1087B6F4EEE9720B0 /* Pods-ARSightseeing.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = XP965TLDBX;
-				INFOPLIST_FILE = ARSightseeing/Info.plist;
+				DEVELOPMENT_TEAM = WB6NH5HQ29;
+				INFOPLIST_FILE = ARSightseeing/Resources/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -378,11 +549,13 @@
 		};
 		49EE660520EB522300E18DD4 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 72A5B4A07C2DDE5F7AFBE191 /* Pods-ARSightseeing.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = XP965TLDBX;
-				INFOPLIST_FILE = ARSightseeing/Info.plist;
+				DEVELOPMENT_TEAM = WB6NH5HQ29;
+				INFOPLIST_FILE = ARSightseeing/Resources/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

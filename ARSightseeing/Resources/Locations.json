@@ -1,0 +1,25 @@
+[
+    {
+        "name": "Palace of Culture and Science",
+        "image": "lm_palac",
+        "latitude": 52.2356933,
+        "longitude": 20.9979245,
+        "altitude": 150,
+    },
+    {
+        "name": "Lazienki Park",
+        "image": "lm_lazienki",
+        "latitude": 52.2370599,
+        "longitude": 21.0041043,
+        "altitude": 250,
+    },
+    {
+        "name": "Old Town Market",
+        "image": "lm_market",
+        "latitude": 52.2484612,
+        "longitude": 21.0098552,
+        "altitude": 150,
+    }
+    
+]
+
