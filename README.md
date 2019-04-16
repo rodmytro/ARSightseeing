@@ -1,7 +1,7 @@
-![ARSightseeing](./Demo/jsonable.png)
+![ARSightseeing](./Demo/Landmarks.png)
 
 ## Description
-ARSightseeing is a iOS app that shows position of Landmarks via Augmented Reality.
+ARSightseeing is an iOS app that shows position of Landmarks via Augmented Reality.
 
 ## Preview
 <img src="./Demo/jsonable.gif?raw=true">
