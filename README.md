@@ -5,7 +5,7 @@ ARSightseeing is an iOS app that shows position of Landmarks via Augmented Reali
 Based on this [repo](https://github.com/ProjectDent/ARKit-CoreLocation)
 
 ## Preview
-<img src="./Demo/Preview.png" alt="preview screenshot" style="width:300px;">
+<img src="./Demo/Preview.png" alt="preview screenshot" style="width:150px;">
 
 ## Author
 Dmytro Romaniuk
