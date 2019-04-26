@@ -215,7 +215,6 @@
 				49EE65E120EB522100E18DD4 /* Frameworks */,
 				49EE65E220EB522100E18DD4 /* Resources */,
 				4F30CA9CEBD959A5F5529341 /* [CP] Embed Pods Frameworks */,
-				C2F4DB551EE67E53B8ED53CB /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -341,21 +340,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ARSightseeing/Pods-ARSightseeing-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		C2F4DB551EE67E53B8ED53CB /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ARSightseeing/Pods-ARSightseeing-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
