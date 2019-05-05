@@ -25,5 +25,5 @@ iOS & macOS developer
 [OmiSoft](https://omisoft.net)
 
 ## License
-JSONABLE is released under the MIT license.  
+ARSightseeing is released under the MIT license.  
 See the [LICENSE](./LICENSE.md) for details.
