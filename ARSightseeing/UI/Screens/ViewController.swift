@@ -14,7 +14,11 @@ import MIBlurPopup
 
 class ViewController: UIViewController {
 
-    var sceneLocationView = SceneLocationView()
+    private var sceneLocationView = SceneLocationView()
+    
+    private var currentLocation: CLLocation? {
+        return sceneLocationView.sceneLocationManager.currentLocation
+    }
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -45,7 +49,7 @@ class ViewController: UIViewController {
         let location = CLLocation(coordinate: coordinates, altitude: object.altitude)
         
         var distanceText = ""
-        if let currentLocation = sceneLocationView.currentLocation() {
+        if let currentLocation = currentLocation {
             let distance = location.distance(from: currentLocation)
             distanceText = "\(distance) m"
         }
@@ -75,8 +79,11 @@ class ViewController: UIViewController {
                     let currentNode = results.node
                     if let locationNode = getLocationNode(node: currentNode) {
                         print("clicked on node \(locationNode.title)")
-                        let distance = locationNode.location.distance(from: sceneView.currentLocation()!)
-                        print("distance: \(distance)")
+                        
+                        if let currentLocation = currentLocation {
+                            let distance = locationNode.location.distance(from: currentLocation)
+                            print("distance: \(distance)")
+                        }
                         
                         performSegue(withIdentifier: "showPopup", sender: self)
                     }
