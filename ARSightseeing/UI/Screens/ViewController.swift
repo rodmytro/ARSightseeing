@@ -68,12 +68,6 @@ class ViewController: UIViewController {
         node.runAction(action)
     }
     
-    
-    // MARK: LOCATION
-    private func setupLocationListener() {
-        sceneLocationView.locationViewDelegate = self
-    }
-    
     // MARK: TOUCHES
     override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
         super.touchesBegan(touches, with: event)
