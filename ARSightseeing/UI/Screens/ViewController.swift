@@ -25,9 +25,13 @@ class ViewController: UIViewController {
         
         sceneLocationView.run()
         
-        addAllPoints()
-        
         view.addSubview(sceneLocationView)
+    }
+    
+    override func viewDidAppear(_ animated: Bool) {
+        super.viewDidAppear(animated)
+        
+        addAllPoints()
     }
     
     override func viewDidLayoutSubviews() {
@@ -62,6 +66,12 @@ class ViewController: UIViewController {
     private func animatePoint(_ node: SCNNode) {
         let action = SCNAction.rotateBy(x: 0, y: 0, z: 10, duration: 1)
         node.runAction(action)
+    }
+    
+    
+    // MARK: LOCATION
+    private func setupLocationListener() {
+        sceneLocationView.locationViewDelegate = self
     }
     
     // MARK: TOUCHES
@@ -102,4 +112,3 @@ class ViewController: UIViewController {
     }
     
 }
-
